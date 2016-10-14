@@ -5,7 +5,7 @@ Allows the use of Razor in WebForms, for senarios where you want to simply gener
 
 How to Use:
 ---------------------
-Rendering the Template is as simple as calling RazorHelper.Render() passing in your model and path to the razor file.
+Rendering the Template is as simple as calling RazorTemplate.Render() passing in your model and path to the razor file.
 
 ```cs
 // Get the generated Html
