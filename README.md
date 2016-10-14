@@ -9,7 +9,7 @@ Rendering the Template is as simple as calling RazorHelper.Render() passing in y
 
 ```cs
 // Get the generated Html
-var html = RazorHelper.Render(myModel, "~/template.cshtml");
+var html = RazorTemplate.Render(myModel, "~/template.cshtml");
 
 // add the html to a control.
 Literal1.Text = html;
